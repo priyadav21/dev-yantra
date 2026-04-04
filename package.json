@@ -1,0 +1,18 @@
+{
+  "name": "dev-yantra",
+  "version": "1.0.0",
+  "main": "index.jsx",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Priya Yadav",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "next": "^16.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
