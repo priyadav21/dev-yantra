@@ -1,9 +1,9 @@
 {
   "name": "dev-yantra",
   "version": "1.0.0",
-  "main": "index.jsx",
+  "type": "module",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start"
   },
@@ -11,8 +11,17 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "@tailwindcss/postcss": "^4.2.2",
     "next": "^16.2.2",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.2.2"
   }
 }
