@@ -1,4 +1,5 @@
 import "./globals.css";
+import ProgressBarProvider from "./components/ProgressBarProvider";
 
 export const metadata = {
   title: "DevYantra",
@@ -9,7 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <ProgressBarProvider>
+          {children}
+        </ProgressBarProvider>
       </body>
     </html>
   );
