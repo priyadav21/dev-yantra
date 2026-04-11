@@ -17,7 +17,6 @@ export default function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Logic for handling form submission will go here
     console.log("Form submitted with:", state);
   };
 
@@ -33,7 +32,6 @@ export default function Register() {
   };
 
   const registerForm = () => {
-    // Logic for handling form submission will go here
     return (
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
